@@ -87,6 +87,7 @@ color: #fdbfa4;
         color: rgb(246, 145, 101);
         background-color: #fff;
         border: 3px solid #f69165;
+        box-seizing: border-box;
         box-shadow: 0px 0px 7px 0px #f69165;
     }
     .calender a i{
