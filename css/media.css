@@ -1,0 +1,23 @@
+@media (min-width: 992px){
+    .infonavnav{
+    display: none;
+    }
+}
+@media(max-width: 991px){
+    .tottho{
+        display: none;
+    }
+    .logo{
+        width:60%!important;
+    }
+    .car1-content h2{
+font-size: 20px;
+    }
+    .car1-content h1{
+font-size: 30px;
+    }
+    .car1-content p{
+
+    }
+
+}
