@@ -167,7 +167,7 @@ font-size: 25px;
     background-position: bottom left;
     background-size: contain;
 }
-.wlcm-cntnr{min-height: 70vh;}
+.wlcm-cntnr{min-height: 40vh;}
 .wlcm-rw{
     justify-content: flex-end;
     padding: 100px 0px;
