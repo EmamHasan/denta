@@ -1,24 +1,22 @@
 .tophd{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    
 }
-.rowhd{
-
-justify-content: space-between;
-align-items: center;
-}
+.rowhd{display: flex;justify-content: space-between;align-items: center;min-height: 8vh;}
 .tottho{
     
+justify-content: space-around;
+    
+padding: 0px;
 }
 .logo{
 
+padding: 5px;
+
+padding-right: 0px;
 }
 .infonav{
- text-align: end;
+ display: contents;
+ justify-content: center;
 }
 .internalnv{
     
@@ -38,13 +36,14 @@ align-items: end;
     align-items: center;
     text-align: end;
     width: max-content;
-    padding-bottom: 5px;
+    margin-bottom: 5p;
     }
     .iconn {font-size: 18px;padding: 0px 7px;}
     .iconn i{
     color: #f69165;
     }
     .icon-content {
+    font-family: 'Roboto', sans-serif;
     }
     .icon-content h1 {
         font-size: 13px;
@@ -71,68 +70,83 @@ padding: 0;
     }
     .navbtnn{
 
-    }
+}
     .navbtnn i{
 
-color: #fdbfa4;
-
+color: #fff;
+}
+.navbtnn:hover{
+    background-color: cadetblue;
 }
     .nav-link{
         color: #fff;
-        font-weight: 600;
+        font-size: 15px;
     }
-    .nav-link:hover{
+    .nav-link:hover {
+        color: #fff;
+      }
+    /* .nav-item:hover{
     background-color: #f69165;
     color: #fff;
-    }
-    .calender{
+    } */
+    .menn{
+       
+      }
+    .menn:hover{
 
-contain: content;
+transform: skewX(-10deg);
 
-margin: 0;
+background-color: #f69165;
 
 }
-    .calender a{color: #fff;background-color: #f69165;padding: 9px 30px;border-top-left-radius: 40px;border-bottom-right-radius: 40px;border: 2px solid #fff;box-sizing: border-box;}
-    .calender:hover a{
-        color: rgb(246, 145, 101);
-        background-color: #fff;
-        border: 3px solid #f69165;
-        box-shadow: 0px 0px 7px 0px #f69165;
+    .men{text-transform: uppercase;font-weight: 600;font-family: 'Roboto', sans-serif;}
+    .men a{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
     }
-    .calender a i{
-
+    .men:hover{
+        
+transform: skewX(10deg);
+    }
+    .appoint{
+        
+font-family: 'Tajawal', sans-serif;
     }
 
 .caro{
     background-image: url(../images/bg1.png);
 }
-    .car1{
+    .car1-content{
         
 display: flex!important;
         
-min-height: 40vh;
+min-height: 30vh;
         
-padding: 50px 0px;
+padding: 120px 0px;
         
 background-image: url(../images/dental1.png);
         
 background-repeat: no-repeat;
         
-background-position: right;
+background-position: right bottom;
+        
+align-items: center;
         
 background-size: contain;
         
-align-items: center;
+font-family: 'Roboto', sans-serif;
     }
-.car1-content h2{background-color: #00cce166;width: fit-content;color: #fff;font-size: 40px;}
+.car1-content h2{background-color: #00cce185;color: #fff;width: fit-content;font-size: 40px;padding: 0px 10px;}
 .car1-content h1{
-    background-color: #f6916580;
-    width: max-content;
+    background-color: #f69165a1;
     color: #fff;
-    font-size: 50px;
+    font-size: 45px;
+    width: fit-content;
+    padding: 0px 10px;
 }
 .car1-content p{
 
+font-size: 17px;
 }
 .learnmore{
 
@@ -146,15 +160,23 @@ font-size: 25px;
 
 margin-right: 10px;
 }
+.learnmore:hover{
+    background-color:  #00cce1;
+    border: none;
+}
 .booknow{
 
-background-color: #00cce1;
+background-color: #f69165;
 
 border: none;
 
 color: #fff;
 
 font-size: 25px;
+}
+.booknow:hover{
+    background-color: #00cce1;
+    border: none;
 }
 .car1 img{
 
@@ -166,13 +188,13 @@ font-size: 25px;
     background-image: url(../images/dental2.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-size: contain;
 }
 .wlcm-cntnr{min-height: 40vh;}
 .wlcm-rw{
     justify-content: flex-end;
     padding: 100px 0px;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .wlcm-mdiv{
 
@@ -206,13 +228,13 @@ justify-content: space-between;
 }
 .wlcm-content h1{
 
-font-size: 19px;
+font-size: 22px;
 
 font-weight: 700;
 }
 .wlcm-content p{
     
-font-size: 14px;
+font-size: 15px;
 }
 
 
@@ -220,11 +242,11 @@ font-size: 14px;
 
 .meet{
 
-min-height: 90vh;
-
-padding-bottom: 100px;
+padding: 100px 0px;
 
 background-color: #f8f9fa;
+
+font-family: 'Roboto', sans-serif;
 }
 .dh1{
 
@@ -234,7 +256,7 @@ align-items: center;
 
 text-align: center;
 
-padding: 100px 0px 50px 0px;
+padding: 0px 0px 50px 0px;
 }
 .dh1 h1{
 
@@ -266,7 +288,7 @@ border-radius: 6px;
     position: relative;
     background-color: #e7e7e787;
     justify-content: center;
-    height: 273px;
+    height: 346px;
     contain: content;
 }
 .item-img{
@@ -293,16 +315,17 @@ text-align: center;
 .icon-box{
     position: absolute;
     top: 80%;
-    left: 31%;
+    left: 50%;
     color: #fff;
     padding-top: 0px;
     font-size: 40px;
     opacity: 0;
+    transform: translate(-50%, -50%);
     transition: 0.5s all ease-in-out;
 }
 .doctor:hover .icon-box{
     opacity: 1;
-    top: 40%;
+    top: 50%;
 }
 .icon-box ul{
 
@@ -330,7 +353,10 @@ display: inline-flex;
 text-align: center;
 
 font-size: 14px;
+
 color: black!important;
+
+text-transform: capitalize;
 }
 .identity:hover .borderr{
     border-bottom: 3px solid #f69165;
@@ -338,7 +364,9 @@ color: black!important;
 }
 .service{
 
-padding-bottom: 100px;
+padding: 100px 0px;
+
+font-family: 'Roboto', sans-serif;
 }
 .serv{margin-bottom: 30px;}
 .servbd{
@@ -356,10 +384,16 @@ display: flex;
 align-items: center;
 
 padding-bottom: 12px;
+
+min-height: 74px;
 }
 .servimg .img{padding-right: 10px;}
+.sh1{
+    
+}
 .servbd:hover{
     border: 5px solid #f69165;
+    box-shadow: 0px 0px 10px #f69165;
 }
 .servbd:hover .servimg{
     color: #f69165;
@@ -385,6 +419,8 @@ font-size: 15px;
 font-weight: 600;
 
 color: #000;
+
+font-family: 'Tajawal', sans-serif;
 }
 .servbd a i{
 
@@ -395,7 +431,9 @@ color: #000;
 
 background-color: #e9ecef7d;
 
-padding-bottom: 80px;
+padding: 90px 0px;
+
+font-family: 'Roboto', sans-serif;
 }
 .price{
     
@@ -408,9 +446,13 @@ border: 5px solid #fff;
 
 border-radius: 2px;
 
-min-height: 50vh;
-
 margin-bottom: 10px;
+}
+.plh1{
+    
+min-height: 86px;
+    
+align-items: center;
 }
 .pricedv h1{
 
@@ -418,7 +460,11 @@ font-size: 30px;
 
 color: #00cce1;
 
+padding: 0px;
+
 padding-top: 15px;
+
+margin: 0;
 }
 .pricedv p{
 
@@ -430,6 +476,7 @@ margin: 10px 0px;
 }
 .price-tag{
 
+background-color: #fff;
 }
 .price-tag h1{
 
@@ -459,6 +506,7 @@ margin: 10px 0px 30px 0px;
 }
 .pricedv:hover{
     border: 5px solid rgb(246, 145, 101);
+    box-shadow: inset 0px 0px 10px;
 }
 .pricedv:hover .h1{
     color: #f69165;
@@ -475,7 +523,7 @@ margin: 10px 0px 30px 0px;
 .pricedv:hover .p{
     color: #fff;
 }
-.happy-clients{background-image: url(../images/bg2.jpg);background-position: center;background-blend-mode: overlay;background-color: #000000b3;color: #fff;padding-bottom: 90px;min-height: 50vh;}
+.happy-clients{background-image: url(../images/bg2.jpg);background-position: center;background-blend-mode: overlay;background-color: #000000b3;color: #fff;padding: 120px 0px;font-family: 'Roboto', sans-serif;}
 .dh11{
 
 }
@@ -484,28 +532,36 @@ margin: 10px 0px 30px 0px;
 }
 .company{
 
-justify-content: space-between;
+justify-content: center;
 
 align-items: center;
+
+padding: 0px;
 }
 .larrow{
-
+    text-align: center;
 }
-.larrow img{
-
+.larrow i{
+ background-color: #00cce1;
+ padding: 5px 8px;
+ font-size: 16px;
+ border-radius: 3px;
 }
+.larrow:hover i{background-color: #f69165;}
 .iico{
     
 justify-content: space-between;
     
 display: flex;
+    
+align-items: center;
 }
 .company1{
 
 margin: 0px 9px;
 }
 
-footer{background-color: #1b1b1b;padding: 100px 0px;}
+footer{background-color: #1b1b1b;padding: 100px 0px;font-family: 'Roboto', sans-serif;}
 .f11{
 
 }
@@ -536,7 +592,10 @@ padding-right: 10px;
 
 font-size: 36px;
 
-color: #f69165;
+color: #00cce1;
+}
+.llocation:hover i{
+    color: #f69165;
 }
 .llocation p{
 
@@ -606,6 +665,8 @@ padding-bottom: 19px;
 color: #fff;
 
 font-size: 30px;
+
+margin-bottom: 0px;
 }
 .f13 p{
 
@@ -624,9 +685,12 @@ border: 2px solid #252525;
 }
 .fbtn{
 
-background: #f69165;
+background: #00cce1;
 
 color: #fff;
+}
+.fbtn:hover{
+    background: #f69165;
 }
 .follow{
 
@@ -661,14 +725,18 @@ padding: 5px 0px;
 text-align: center;
     
 align-items: center;
+    
+padding: 8px 0px;
 }
 .copyr p{
 
 margin: 0;
 
 color: #fff;
+
+font-family: 'Roboto', sans-serif;
 }
 p span{
 
-color: #f69165;
+color: #00cce1;
 }
