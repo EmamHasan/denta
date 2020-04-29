@@ -300,6 +300,7 @@ margin: 8px 0px;
         text-align: center;
         background: none;
         justify-content: center;
+        padding: 50px 0px;
     }
     .car1-content h2{
         text-align: center;
@@ -333,7 +334,7 @@ background-blend-mode: color;
 
 background-image: none;
 }
-.wlcm-rw{justify-content: center;}
+.wlcm-rw{justify-content: center;padding: 50px 0px;}
 .wlcm-mdiv{
     text-align: center;
     width: auto;
@@ -472,6 +473,7 @@ font-size: 11px;
 }
 .happy-clients{
 
+padding: 60px;
 }
 .larrow{
 
@@ -1251,5 +1253,3 @@ font-size: 24px;
 height: 150px;
     }
 }
-
-
