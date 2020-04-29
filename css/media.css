@@ -1,5 +1,5 @@
 @media (min-width: 992px){
-    .infonavnav{
+    .infonav{
     display: none;
     }
 }
@@ -11,7 +11,7 @@
 @media(min-width:1025px){
     
 }
-@media(max-width:1024px){
+@media(max-width:992px){
     .nav-link{
         font-size: 12px;
     }
@@ -95,6 +95,9 @@ background-blend-mode: color;
 
 }
 .dh1{
+
+}
+.dh1 h1{
 
 }
 .dh1 p{
@@ -295,8 +298,8 @@ margin: 8px 0px;
 }
     .car1-content{
         text-align: center;
-        background-color: #ffffff70;
-        background-blend-mode: color;
+        background: none;
+        justify-content: center;
     }
     .car1-content h2{
         text-align: center;
@@ -324,9 +327,11 @@ font-size: 16px;
 }
 .welcome{
 
-background-color: #ffffff70;
+background-color: #f0fbfc;
 
 background-blend-mode: color;
+
+background-image: none;
 }
 .wlcm-rw{justify-content: center;}
 .wlcm-mdiv{
@@ -360,11 +365,15 @@ font-size: 13px;
 
 .meet{
 
+padding: 50px 0px;
 }
 .dh1{
 
 padding: 0px 20px;
 
+}
+.dh1 h1{
+    
 }
 .dh1 p{
 
@@ -405,6 +414,21 @@ font-size: 17px;
 .identity p{
     
 font-size: 12px;
+}
+.servimg{
+
+}
+.servimg .img{
+
+}
+.servimg .img img{
+
+}
+.sh1{
+
+}
+.sh1 h1{
+    
 }
 .servimg h1 {
    font-size: 14px;
@@ -557,6 +581,9 @@ font-size: 20px;
 }
 .focon{
 
+display: flex;
+
+justify-content: space-around;
 }
 .focon i{
 
@@ -569,7 +596,32 @@ font-size: 13px;
     
 }
 }
-@media(max-width:425px){
+@media(max-width:575px){
+    .rowhd{
+
+    }
+    .infonav{
+
+align-items: center;
+
+}
+    .infonavnav{
+
+align-items: center;
+
+padding: 0;
+
+padding-right: 10px;
+
+}
+    .internalnv{
+
+    }
+    .infnv{
+
+font-size: 15px;
+
+}
     .nav-link{
         font-size: 11px;
     }
@@ -577,10 +629,10 @@ font-size: 13px;
         font-size: 14px;
     }
     .icon-content h1{
-        font-size: 10px;
+        font-size: 8px;
     }
     .icon-content p{
-        font-size: 7px;
+        font-size: 6px;
     }
     .caro{
         
@@ -621,6 +673,8 @@ font-size: 15px;
 .welcome{
     
 background: none;
+    
+background-color: #f0fbfc;
 }
 .wlcm-rw{
     
@@ -633,9 +687,11 @@ padding: 70px 0px;
 }  
 .wlcm-intro h1{
 
+font-size: 22px;
 } 
 .wlcm-intro p{
 
+font-size: 13px;
 }
 .wlcm{
 
@@ -645,17 +701,21 @@ padding: 70px 0px;
 }
 .wlcm-content h1{
 
-font-size: 16px;
+font-size: 14px;
 }
 .wlcm-content p{
     
-font-size: 14px;
+font-size: 13px;
 }
 .meet{
 
 }
 .dh1{
 
+}
+.dh1 h1{
+    
+font-size: 28px;
 }
 .dh1 p{
 
@@ -693,14 +753,39 @@ height: 205px;
 font-size: 15px;
 }
 .identity p{font-size: 11px;}
+.servimg{
+
+display: block;
+
+text-align: end;
+
+text-align: center;
+
+min-height: 100px;
+}
+.servimg .img{
+
+padding: 0px;
+}
+.servimg .img img{
+
+width: 30px;
+}
+.sh1{
+
+}
+.sh1 h1{
+    
+}
 .servimg h1 {
    font-size: 18px;
 }
 .servbd p {
-   font-size: 12px;
+   font-size: 11px;
 }
 .servbd a{
    
+font-size: 11px;
 }
 .pricedv{
 
@@ -710,6 +795,7 @@ font-size: 15px;
 }
 .plh1 h1{
     
+font-size: 16px;
 }
 .pricedv p{
 
@@ -770,7 +856,7 @@ margin-bottom: 10px;
 }
 .llocation i{
 
-font-size: 30px;
+font-size: 25px;
 }
 .lp{
 
@@ -859,17 +945,33 @@ font-size: 11px;
 }
 }
 @media(max-width:375px){
+    .rowhd{
+
+    }
+    .infonav{
+
+    }
+    .infonavnav{
+
+    }
+    .internalnv{
+
+    }
+    .infnv{
+        
+    }
     .nav-link{
         font-size: 11px;
     }
     .iconn{
         font-size: 14px;
+        padding: 1px;
     }
     .icon-content h1{
-        font-size: 8px;
+        font-size: 7px;
     }
     .icon-content p{
-        font-size: 6px;
+        font-size: 5px;
     }
     .caro{
 
@@ -910,13 +1012,11 @@ font-size: 15px;
  }  
  .wlcm-intro h1{
 
-font-size: 23px;
-
+font-size: 16px;
 } 
  .wlcm-intro p{
 
-font-size: 13px;
-
+font-size: 10px;
 }
  .wlcm{
 
@@ -929,16 +1029,24 @@ font-size: 13px;
  }
  .wlcm-content p{
 
- }
+font-size: 12px;
+
+}
  .meet{
 
  }
  .dh1{
 
  }
+ .dh1 h1{
+    
+font-size: 24px;
+}
  .dh1 p{
 
- }
+font-size: 12px;
+
+}
  .identity{
 
  }
@@ -978,15 +1086,30 @@ font-size: 14px;
 font-size: 11px;
 
 }
+.servimg{
+
+}
+.servimg .img{
+
+}
+.servimg .img img{
+
+}
+.sh1{
+
+}
+.sh1 h1{
+
+}
  .servimg h1 {
-    font-size: 15px;
+    font-size: 12px;
 }
 .servbd p {
     font-size: 11px;
 }
 .servbd a{
 
-font-size: 11px;
+font-size: 10px;
 }
 .pricedv{
 
@@ -1044,6 +1167,7 @@ font-size: 11px;
 }
 .llocation i{
 
+font-size: 22px;
 }
 .lp{
 
@@ -1059,6 +1183,7 @@ font-size: 11px;
 }
 .f12h h1{
 
+font-size: 23px;
 }
 .mini{
 
@@ -1074,6 +1199,7 @@ font-size: 11px;
 }
 .mini-content h4{
 
+font-size: 8px;
 }
 .mini-content p{
 
@@ -1110,6 +1236,7 @@ font-size: 20px;
 }
 .focon i{
 
+font-size: 24px;
 }
 .copyr p{
 
@@ -1124,3 +1251,5 @@ font-size: 20px;
 height: 150px;
     }
 }
+
+
